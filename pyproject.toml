@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bevjiwai-compilerfuse_jd105"
+name = "bevjiwai-storage_io_compute_overlap_segmenter"
 version = "0.1.0"
 description = "把输入按语义边界切成独立单元，逐单元核对编译器与算子融合专家·存储 IO 与计算的重叠相关的特征并标出命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bevjiwai.github.io"
-Repository = "https://github.com/bevjiwai/compilerfuse_jd105"
-Issues = "https://github.com/bevjiwai/compilerfuse_jd105/issues"
+Repository = "https://github.com/bevjiwai/storage_io_compute_overlap_segmenter"
+Issues = "https://github.com/bevjiwai/storage_io_compute_overlap_segmenter/issues"
 
 [project.scripts]
-compilerfuse_jd105 = "compilerfuse_jd105:main"
+storage_io_compute_overlap_segmenter = "storage_io_compute_overlap_segmenter:main"
 
 [tool.setuptools]
-py-modules = ["compilerfuse_jd105"]
+py-modules = ["storage_io_compute_overlap_segmenter"]
